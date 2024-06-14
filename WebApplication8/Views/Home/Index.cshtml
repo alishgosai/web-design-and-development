@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<br />
+
+
+
+
+
+<h1>Customer Profile</h1>
+<form action="AddSubject" method="post"">
+    <table>
+        <tr>
+            <td><label for=" customerName">Customer Name</label></td>
+            <td><input type="text" id="customerName" name="customerName"/></td>
+        </tr>
+        
+
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="femal">Female</label>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+  
+</form>
+
+
+<h1>Customer Details</h1>
+<form action="submit.php" method="post">
+    <table>
+        <tr>
+            <td><label for="customerName">Customer Name:</label></td>
+            <td><input type="text" id="customerName" name="customerName" required></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Stores of Interest:</label></td>
+            <td>
+                <input type="checkbox" id="sydney" name="stores[]" value="Sydney">
+                <label for="sydney">Sydney</label>
+                <input type="checkbox" id="melbourne" name="stores[]" value="Melbourne">
+                <label for="melbourne">Melbourne</label>
+                <input type="checkbox" id="perth" name="stores[]" value="Perth">
+                <label for="perth">Perth</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="workType">Work Type:</label></td>
+            <td>
+                <select id="workType" name="workType">
+                    <option value="fullTime">Full-Time</option>
+                    <option value="partTime">Part-Time</option>
+                    <option value="contract">Contract</option>
+                    <option value="freelance">Freelance</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit">
+</form>
+
+<br />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>

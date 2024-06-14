@@ -1,0 +1,2 @@
+C:\Users\hello\source\repos\Web272\obj\Debug\Web272.csproj.AssemblyReference.cache
+C:\Users\hello\source\repos\Web272\obj\Debug\Web272.csproj.CoreCompileInputs.cache

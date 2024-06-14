@@ -1,0 +1,90 @@
+﻿<!-- Views/Contact/Index.cshtml -->
+@model FinalProject.Models.ContactViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <!-- Add your CSS stylesheets and other meta tags here -->
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <div class="section-header">
+            <div class="container">
+                <link rel="stylesheet" type="text/css" href="~/Content/contact.css" />
+
+                <h2>Contact Us</h2>
+                <p>Come experience the flavors of the Himalayas at Himalayan Nepalese Cuisine. Our cozy restaurant awaits you with a delightful blend of traditional Nepali and Himalayan dishes. Whether you’re craving momo dumplings, hearty curries, or aromatic rice dishes, we’ve got something to satisfy your taste buds.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Address</h4>
+                            <p>22 Sheffield St, <br />Auburn NSW <br />2144</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Phone</h4>
+                            <p>(02) 8677 522842</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>himalayannepalese@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <h2>Contact Us</h2>
+    @using (Html.BeginForm("Index", "Contact", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Email)
+            @Html.TextBoxFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Number)
+            @Html.TextBoxFor(model => model.Number)
+            @Html.ValidationMessageFor(model => model.Number)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Message)
+            @Html.TextAreaFor(model => model.Message)
+            @Html.ValidationMessageFor(model => model.Message)
+        </div>
+
+        <button type="submit">Send</button>
+    }
+</body>
+</html>

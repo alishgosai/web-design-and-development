@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+@model IEnumerable<WebApplication10tutorial.Models.restaurant>
+    <h2>Restaurant Reviews</h2>
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.restaurantName)</th>
+        <th>@Html.DisplayNameFor(model => model.restaurantReview)</th>
+    </tr>
+    @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.restaurantName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.restaurantReview)</td>
+                </tr>
+            }
+</table>

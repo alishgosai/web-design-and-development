@@ -1,0 +1,75 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #000; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Add appropriate padding */
+}
+
+    /* Logo styles */
+    .footer .logo {
+        color: #ff0000; /* Red logo color */
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    /* Column styles */
+    .footer .column {
+        margin-bottom: 20px;
+    }
+
+        .footer .column h3 {
+            color: #fff; /* Heading text color */
+        }
+
+        .footer .column ul {
+            list-style-type: none;
+        }
+
+        .footer .column li {
+            line-height: 1.6; /* Adjust line height as needed */
+        }
+
+    /* Social icons */
+    .footer .social-icons img {
+        width: 24px; /* Set icon size */
+        height: auto;
+        margin-right: 10px;
+    }
+
+    /* Address styles */
+    .footer .address {
+        font-size: 14px;
+        color: #ccc; /* Light gray text color */
+    }
+
+    /* Copyright notice */
+    .footer .copyright {
+        font-size: 12px;
+        color: #ccc;
+    }

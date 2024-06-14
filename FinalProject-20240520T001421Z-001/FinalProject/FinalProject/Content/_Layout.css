@@ -1,0 +1,33 @@
+﻿
+.footer {
+    background-color: black; /* Dark background color */
+    color: white; /* White text color */
+    padding: 25px; /* Add appropriate padding */
+}
+
+    /* Column styles */
+    .footer .column {
+        margin-bottom: 20px;
+    }
+
+        .footer .h2 {
+            color: #fff; /* Heading text color */
+        }
+
+        .footer .ul {
+            list-style-type: none;
+        }
+
+        .footer .li {
+            line-height: 1.6; /* Adjust line height as needed */
+        }
+
+   
+
+    /* Additional styles would be needed for responsiveness and other elements */
+
+    /* Copyright notice */
+    .footer .copyright {
+        font-size: 12px;
+        color: #ccc;
+    }

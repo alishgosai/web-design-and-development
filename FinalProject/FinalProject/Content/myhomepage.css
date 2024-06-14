@@ -1,0 +1,23 @@
+﻿
+
+
+table.customTable {
+    width: 100%;
+    background-color: #FFFBF0;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+}
+
+    table.customTable td, table.customTable th {
+        border-width: 2px;
+        border-color: #000000;
+        border-style: solid;
+        padding: 5px;
+    }
+
+    table.customTable thead {
+        background-color: #9FD2F8;
+    }

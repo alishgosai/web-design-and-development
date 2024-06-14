@@ -1,0 +1,7 @@
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\SydneyHotel.csproj.AssemblyReference.cache
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\SydneyHotel.csproj.CoreCompileInputs.cache
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\hello\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

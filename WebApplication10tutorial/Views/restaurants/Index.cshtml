@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebApplication10tutorial.Models.restaurant>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Search button</h2>
+
+<form action="/restaurants/Search" method="get">
+    <label>Search restaurants by name</label>
+    <input type="text" name="resname" />
+    <input type="submit" value="Search" />
+</form>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.restaurantName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.restaurantReview)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.restaurantName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.restaurantReview)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

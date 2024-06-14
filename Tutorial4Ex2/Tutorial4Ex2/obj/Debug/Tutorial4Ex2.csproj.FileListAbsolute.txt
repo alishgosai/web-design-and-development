@@ -1,0 +1,7 @@
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\bin\Debug\Tutorial4Ex2.exe.config
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\bin\Debug\Tutorial4Ex2.exe
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\bin\Debug\Tutorial4Ex2.pdb
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\obj\Debug\Tutorial4Ex2.csproj.AssemblyReference.cache
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\obj\Debug\Tutorial4Ex2.csproj.CoreCompileInputs.cache
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\obj\Debug\Tutorial4Ex2.exe
+C:\Users\hello\source\repos\Tutorial4Ex2\Tutorial4Ex2\obj\Debug\Tutorial4Ex2.pdb
